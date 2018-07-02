@@ -138,7 +138,7 @@ class pageItem extends React.Component{
             dataSource={this.state.dataSource}
             renderHeader={()=>(<span style={{ padding: 40, textAlign: 'center' }}></span>)}
             renderFooter={() => (<span style={{ padding: 30, textAlign: 'center' }}>
-              {this.state.isLoading ? '正在前往unsplash.com加载图片' : 'Loaded'}
+              {this.state.isLoading ? '正在====前往unsplash.com加载图片' : 'Loaded'}
             </span>)}
             renderRow={row}
             renderSeparator={separator}
