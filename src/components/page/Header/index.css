@@ -1,0 +1,54 @@
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 200px;
+  padding: 0;
+}
+  /* .am-drawer.am-drawer-left .am-drawer-draghandle, .am-drawer.am-drawer-right .am-drawer-draghandle {
+    width: 0px;
+    height: 100%;
+} */
+@keyframes spin {
+  0%   { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+.img_zhuan{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: spin 5000ms infinite linear;
+  -webkit-animation: spin 5000ms infinite linear;
+  -moz-animation: spin 5000ms infinite linear;
+  -ms-animation: spin 5000ms infinite linear;
+  -o-animation: spin 5000ms infinite linear;
+  animation-play-state: running;
+  z-index: 1;
+}
+.img_zhuan2{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: spin 5000ms infinite linear;
+  -webkit-animation: spin 5000ms infinite linear;
+  -moz-animation: spin 5000ms infinite linear;
+  -ms-animation: spin 5000ms infinite linear;
+  -o-animation: spin 5000ms infinite linear;
+  animation-play-state: paused;
+  z-index: 1;
+}
+.am-navbar2{
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
