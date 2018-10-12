@@ -9,7 +9,7 @@ import App from './router.js';
 import configureStore from './stores';
 import rootSaga from './sagas';
 // Render the main component into the dom
-
+//ertrer
 const store = configureStore();
 store.runSaga(rootSaga);
 
