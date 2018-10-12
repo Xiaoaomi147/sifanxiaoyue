@@ -10,6 +10,7 @@ import configureStore from './stores';
 import rootSaga from './sagas';
 // Render the main component into the dom
 //ert
+//w3456789
 const store = configureStore();
 store.runSaga(rootSaga);
 
